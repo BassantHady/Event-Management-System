@@ -1,0 +1,42 @@
+:root {
+    --main-color: #791e02;
+    --transparent-color: #e30b0b;
+    --color-p: #777;
+    --section-padding: 100px;
+    --main-transition: 0.3s;
+}
+
+/* Section: Find Event Tickets */
+.find-tickets {
+    text-align: center;
+    background-color: #ffffff; /* White */
+    color: #791e02; /* Dark Red */
+    padding: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.25); /* Gray Overlay */
+    font-family: 'Audiowide', sans-serif;
+    margin-top: 80px;
+}
+
+.find-tickets h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.find-tickets p {
+    margin: 10px 0;
+}
+
+.promoter-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #e30b0b; /* Bright Red */
+    color: #ffffff; /* White */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.promoter-link:hover {
+    background-color: #791e02; /* Dark Red */
+}
